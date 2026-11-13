@@ -5,7 +5,7 @@ import base64
 from datetime import datetime
 
 # Configuration
-ORG_NAME = os.environ.get("GITHUB_ORG", "HTH-Test-org")
+ORG_NAME = os.environ.get("GITHUB_ORG", "hightec-rt")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 
 HEADERS = {
